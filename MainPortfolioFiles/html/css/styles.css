@@ -1,0 +1,120 @@
+html {
+	background: #eeeeee url('../images/background.jpg') top center no-repeat;
+}
+
+#all {
+	width:780px;
+	margin:0 auto;
+	font:normal normal normal 14px/20px Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+
+a {
+	color:#333333;
+}
+
+#header {
+	height:160px;
+}
+
+
+#header h1 {
+	margin-top:20px;
+	display:block;
+	width:440px;
+	height:120px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background: url('../images/logo2.png') center center no-repeat; 
+}
+ 
+
+
+#header p {
+	float:right;
+	position:relative;
+	top:-80px;
+	font:italic normal normal 18px/20px Georgia, serif;
+	color:#999999;
+	text-align:right;
+}
+
+ul#menu li {
+	font:normal normal normal 14px/20px Arial, Helvetica, sans-serif;
+	display:inline;
+	padding:10px 10px;
+	cursor:pointer;
+}
+
+ul#menu li.jFlowSelected {
+	border:1px solid #ffffff;
+	background: #ffffff url('../images/list-background.jpg') center center repeat-x;
+}
+
+#works {
+	margin-top:8px;
+	padding:20px;
+	background:#ffffff;
+}
+
+#works div h2 {
+	padding-top:20px;
+}
+
+#works div p {
+	width:740px;
+}
+
+#footer {
+	display:block;
+	width:780px;
+	height:80px;
+	background:#fff url('../images/footer-background.jpg') center bottom no-repeat;
+}
+
+#footer p {
+	padding-top:20px;
+	color:#999999;
+}
+
+th, td {
+	padding: 15px;
+	text-align: left;
+}
+
+/* Styling for Contact Form  */
+input[type=text], select {
+    width: 200%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+	width: 200%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
